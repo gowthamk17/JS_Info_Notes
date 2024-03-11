@@ -29,3 +29,11 @@ we can send object to addEventListener in that case handleEvent method inside th
 + **event.isTrusted** if an event is script created this property will be false
 + there's also **CustomEvent** which is the same as Event but has extra parameter a detail object
 + event calls within event are synchronous
+
+## UI Events
+
+### Mouse Events
++ to get which button was clicked use **event.button**
++ all mouse event provide details about modifier keys
++ also has coords clientX/Y and pageX/Y
++ **mouseenter/mouseleave** event's don't bubble up
